@@ -47,4 +47,4 @@ if ingredients_list:
 
 #New section to display smoothiefroot nutition information
 smoothiefroot_reponse = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
-st.text(smoothiefroot_responsed)
+st.text(smoothiefroot_reponse)
